@@ -18,6 +18,14 @@ $ composer create-project certificationy/certificationy-cli
 $ php certificationy.php
 ```
 
+## Using Docker with docker-compose
+```
+$ git clone https://github.com/certificationy/certificationy-cli.git .
+$ docker-compose up -d
+$ docker-compose exec certificationy composer install
+$ docker-compose exec certificationy php certificationy.php
+```
+
 ## More run options
 
 ### Select the number of questions
